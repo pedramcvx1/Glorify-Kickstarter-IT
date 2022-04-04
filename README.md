@@ -1,4 +1,4 @@
-# Glorify-Kickstarter-IT
+# Glorify Kickstarter IT
 
 Hello People!
 
