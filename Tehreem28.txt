@@ -20,9 +20,14 @@ Video 4
 https://drive.google.com/file/d/1CDprmAynqdDDK6iD9DbIHluSZY1_3QFJ/view?usp=sharing
 Video 5
 https://drive.google.com/file/d/1R8w16EJmjCd00TcuZZEIXGY_k7BejHb4/view?usp=sharing
+
+Ice cream website optimization tiktok
+https://drive.google.com/file/d/13dgdeJS0TJvLWum15PwqgHvFCU6oyGDM/view?usp=sharing
+
 Ice cream website speed test before optimization
 https://tools.pingdom.com/#60239dc239800000
 Ice cream website speed test after optimization pingdom tools
 https://tools.pingdom.com/#602509785e400000
 Ice cream website speed test after optimization GTmetrix
 https://gtmetrix.com/reports/tehreem.glorifykickstarter.com/I9pvH2JG/
+
