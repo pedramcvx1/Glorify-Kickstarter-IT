@@ -8,7 +8,7 @@ $(document).ready(function () {
         $nav.toggleClass('collapse');
     })
 
-// owl-crousel for blog
-$('.owl-carousel').owlCarousel({
+    // owl-crousel for blog
+    $('.owl-carousel').owlCarousel();
 
 });
