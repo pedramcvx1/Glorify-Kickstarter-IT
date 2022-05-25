@@ -1,0 +1,11 @@
+
+/*  font-family: Abel  */
+@font-face {
+    font-family: SansPro;
+    src: url('../Fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
