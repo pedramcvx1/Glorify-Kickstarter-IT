@@ -73,8 +73,6 @@ span{
     font-family: var(--Abel);
 }
 
-<<<<<<< Updated upstream
-=======
 .container{
   margin:0 5vw;
 }
@@ -88,7 +86,6 @@ p{
     color: var(--text-light);
 }
 
->>>>>>> Stashed changes
 /*----------x---------Global Classes----------x--------*/
 
 /*----------------navbar---------------*/
@@ -215,10 +212,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
-<<<<<<< Updated upstream
-=======
     background-size:65%;
->>>>>>> Stashed changes
 }
 
 main .blog .blog-post{
@@ -229,11 +223,7 @@ main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
     text-align: center;
-<<<<<<< Updated upstream
-    width: 20%;
-=======
     width: 80%;
->>>>>>> Stashed changes
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -252,12 +242,6 @@ main .blog-content span{
     display: block;
 }
 
-<<<<<<< Updated upstream
-/* -------x------- Blog Carousel -----x------ */
-
-/* ---------x------- Main Content -----x----- */
-
-=======
 section .container .owl-nav{
     position: absolute;
     top: 0%;
@@ -541,7 +525,6 @@ footer.footer .move-up span:hover{
 
 /*      x       Viewport less then or equal to 1130px    x     */
 
->>>>>>> Stashed changes
 /*            Viewport less then or equal to 750px          */
 
 @media only screen and (max-width: 750px){
@@ -549,14 +532,6 @@ footer.footer .move-up span:hover{
         flex-direction: column;
     }
 
-<<<<<<< Updated upstream
-.nav.toggle-collapse{
-    display:initial;
-} 
-}
-
-/*        x      Viewport less then or equal to 750px       x     */
-=======
     .nav.toggle-collapse{
         display:initial;
    } 
@@ -600,4 +575,3 @@ footer.footer .move-up span:hover{
 }
 
 /*        x      Viewport less then or equal to 520px       x     */
->>>>>>> Stashed changes
