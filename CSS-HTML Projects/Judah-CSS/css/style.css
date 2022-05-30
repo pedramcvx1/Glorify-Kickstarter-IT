@@ -1,0 +1,610 @@
+
+@import url('../css/fonts.css');
+
+
+
+
+html, body{
+    margin: 0%;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    /* Theme colors */
+    --text-black: rgb(0, 0, 0); 
+    --text-white: rgb(255, 255, 255); 
+    --text-grey: rgb(71, 71, 71); 
+
+    /* gradient color */
+    --grad: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+
+
+    /* theme font-family */
+    --Raleway:'Raleway', cursive;
+    --Roboto: 'Roboto', cursive;
+    --Rabbit: 'Rabbot', cursive;
+}
+/*----------------------Global Classes------------------*/
+a{
+    text-decoration: none;
+    color:rgb(202, 202, 202);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Roboto);
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+
+    font-family: var(--Rabbit);
+    font-size: 1.3rem;
+}
+ 
+h3{
+    font-family: var(--Raleway);
+    font-size: 1.4rem;
+}
+
+
+button.button{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-family: var(--Raleway);
+    cursor: pointer; 
+
+}
+
+span{
+    font-family: var(--Roboto) 
+}
+
+.container{
+    margin: 0 0.1vw;
+}
+
+
+.blog-icons{
+    color: gray;
+}
+
+
+p{
+    font-family: var(--Raleway);
+    line-height: 1.5rem;
+    word-spacing: .2rem;
+}
+
+
+
+
+/*---------------;x-------Global Classes-----------x-------*/
+
+
+
+/*-------------Navigation Menu------*/
+
+.nav{
+    background: var(--grad);
+    padding: 0 2.5rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    margin-bottom: -1.2rem;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .toggle-button{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    cursor: pointer; 
+}
+
+.nav .toggle-button .toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0;
+    color:#ffffff;
+    z-index: 2;
+}
+
+.collapse{
+    height: 50rem;
+}
+
+.nav .toggle-button .toggle-icon{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.nav .nav-menu-items{
+    display: flex;
+    margin: 0; 
+}
+
+.nav .nav-menu-items a{
+    color: black;
+}
+
+.nav .nav-menu-items .nav-link{
+    padding: 1.3rem 1rem;
+    font-size: 1.4rem;
+    position: relative;
+    font-family: var(--Rabbit)
+} 
+
+.nav .nav-menu-items .nav-link:hover{ 
+    background-color: black;
+
+}
+
+.nav .nav-menu-items .nav-link:hover a{
+    color:#cfc7f8;
+}
+
+
+
+.nav .nav-title a{
+    font-size: 2.3rem;
+    padding: 0.7rem 0;
+    display: block;
+    font-family: var(--Raleway );
+    color:rgb(3, 95, 95); 
+}
+    
+
+
+/*------x---Navigation Menu-----x---*/
+
+
+/*------Main Section Content---------*/
+
+/*-------------Site Heading----------*/
+main .site-title{
+    background: url(../contents/homepagebg.jpg);
+    background-size: cover;
+    height:120vh;
+    display:flex;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-top: 1rem;
+
+}
+
+main .site-title .site-background{
+    padding-top: 6rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+main .site-title h1, h3{
+    margin: 2rem;
+}
+
+main .site-title .button{
+    margin: 2.5rem;
+    background: #ffbda0;
+}
+
+
+main .site-title .button:hover{
+    background: transparent;
+    border: 2px solid black;
+    color: rgb(201, 130, 83)
+
+}
+
+/*-------x------Site Heading----x------*/
+
+/*-------------Blog Carousel----------*/
+main .blog{
+    background: var(--grad);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+    
+}
+
+main .blog .blog-post{
+    padding-top: 3rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    width: 85%;
+    margin: 2rem 2rem;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+
+}
+
+main .blog-content span{
+    display: block;
+}
+
+main .blog-content .button-blog{
+    padding: .7rem 2rem;
+    background: var(--grad);
+    border: solid 1px rgb(150, 150, 150);
+    margin-bottom: 1rem;
+    
+}
+
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 1.3rem;
+}
+.owl-nav .owl-prev .scroll-prev,
+.owl-nav .owl-next .scroll-next{
+    color: grey;
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: pink;
+}
+/*------x-------Blog Carousel-----x-----*/
+
+
+/*-----------Site Content---------------------*/
+main .site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+main .site-content .posts h1,
+main .site-content .sidebar h1{
+    color: black;
+    font-size: 3rem;
+}
+
+
+main .post-content{
+    width: 100%;
+}
+
+
+
+main .site-content .post-content{
+    padding: 5rem;
+}
+
+
+
+main .site-content .post-content> .post-image, .post-title{
+    padding: 1rem 2rem;
+    position: relative;
+
+}
+
+
+main .site-content .post-content> .post-image .post-info{
+    background: var(--grad);
+    margin-right: 11rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left:20vw;
+    border-radius: 3rem;
+
+}
+
+main .site-content .post-content> .post-image> div{
+    overflow: hidden;
+}
+
+
+main .site-content .post-content> .post-image .img{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+main .site-content .post-content> .post-image .img:hover{
+    transform: scale(1.05);
+}
+
+
+
+main .site-content .post-content> .post-image .post-info span{
+    margin: 0.5rem;
+}
+
+main .post-content .post-title a{
+    font-family: var(--Rabbit);
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+.site-content .post-content .post-title .post-button{
+    border-radius: 0;
+    padding: .7rem 1.5rem;
+    background: var(--grad);
+}
+
+.site-content .pagination{
+    justify-content: center;
+    margin: 4rem 0;
+}
+.site-content .pagination a{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0 .3rem;
+    font-family: var(--Roboto);
+    color:black;
+}
+
+
+.site-content .pagination .pages{
+    background: black;
+    color: white;
+}
+
+
+
+/*--------x---Site Content-----------x----------*/
+
+
+/*------------Sidebar-------------*/
+
+.site-content> .sidebar .category h2{
+    margin-left: 5rem;
+    margin-top: 5.5rem;
+}
+
+.site-content> .sidebar .category-list{
+    font-family: var(--Raleway);
+
+}
+
+.site-content> .sidebar .category-list .list-items{
+    background: var(--grad);
+    padding: .4rem 1rem;
+    margin: .8rem 2rem;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.site-content> .sidebar .category-list .list-items a{
+    color: black;
+}
+
+.site-content .sidebar .popular-posts .post-content{
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-posts h2{
+    padding-top: 6rem;
+    margin-left: 2.3rem;
+}
+.site-content .sidebar .popular-posts{
+    margin-left: 2.5rem;
+}
+
+
+.site-content .sidebar .popular-posts .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+    font-size: .54rem !important;
+}
+
+.site-content .sidebar .popular-posts .post-title a{
+    font-size: 1rem;
+
+}
+
+
+.site-content .sidebar .newsletter h2{
+    margin-left: 4.7rem;
+}
+
+.site-content .sidebar .newsletter{
+    padding-top: 10rem;
+}
+
+
+
+.site-connewslettertent .sidebar .form-element{
+    padding: .5rem 2rem;
+}
+
+
+.site-content .sidebar .newsletter .input-text{
+    margin-left: 4.4rem;
+    width: 65%;
+    height: 1.9rem;
+    padding: .3rem 1rem;
+    font-family: var(--Raleway);
+    font-size: 1rem;
+
+}
+
+
+
+.site-content .sidebar .newsletter .form-button{
+    margin-top: 1rem;
+    margin-left: 4.4rem;
+    border-radius: 0;
+    padding: .8rem 26.5%;
+    background: var(--grad);
+}
+
+.site-content .sidebar .newsletter .form-button:hover{
+    background: rgb(223, 148, 106);
+}
+
+
+.site-content .sidebar .popular-tags h2{
+    margin-left: 4.5rem;
+    margin-top: 6rem;
+}
+
+.site-content .sidebar .popular-tags{
+    padding: 3rem 0;
+}
+
+
+.site-content .sidebar .popular-tags .tags{
+    margin-left: 4rem;
+}
+
+
+.site-content .sidebar .popular-tags .tags .tag{
+    background: var(--grad);
+    padding: .6rem 1rem;
+    margin: .4rem .6rem;
+    border-radius: 1rem;
+}
+
+
+
+
+/*-------x-----Sidebar-------x------*/
+
+
+
+
+
+
+
+/*---x---Main Section Content------x---*/
+
+
+
+
+/*----------------Footer------------------------*/
+footer.footer{
+    height:100%;
+    background: rgb(253, 191, 166);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer.footer .container> div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 5rem;
+}
+
+
+footer.footer .container .about h2, .contact h2, .follow h2{
+    color:white;
+}
+
+
+
+footer.footer .container .contact .contact-icons{
+    font-size: 1.1rem;
+    word-spacing: .2rem;
+    line-height: 2rem;
+}
+
+footer.footer .follow div i{
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+}
+
+
+footer.footer .follow div i:hover{
+    cursor: pointer;
+}
+
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Roboto);
+    
+}
+
+footer.footer .scroll{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+
+footer.footer .scroll span:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------x-------Footer----------x--------------*/
+
+
+
+
+
+
+
+/*    Viewport less than or equal to 750px  */ 
+@media only screen and (max-width: 750px){
+.nav.nav-menu, .nav .nav-menu-items{
+    background: black;
+}
+.nav .toggle-button{
+    display:initial;
+}
+
+}
+/*  x  Viewport less than or equal to 750px   x */ 
+
+
+
+
+
+
+
