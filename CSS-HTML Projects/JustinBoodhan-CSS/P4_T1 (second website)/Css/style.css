@@ -1,0 +1,316 @@
+@import url(/Css/fonts.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+ /* -- ----------------------------  Header & Navigation ---------------------------------------------- */
+
+.header{
+    width: 100%;
+    height: 13vh;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.414);
+}
+
+.inner_header{
+    width: 1300px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container img{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 130px;
+}
+
+.navigation{
+    float:right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navigation a :hover{
+    color: red;
+}
+
+.navigation a :active{
+    color: red;
+}
+
+/*------------------------------------- Hero section ----------------------------------------------*/
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 120px;
+    text-align: middle;
+    color: white;
+}
+
+.content a{
+    display: inline-block;
+    color: red;
+    font-size: 24px;
+    border: 2px solid red;
+    padding: 14px 70px ;
+    border-radius: 50px;
+    margin-top: 60px;
+    font-family: "SansPro";
+}
+
+.content a:hover{
+    color: white;
+    background-color: red;
+}
+
+.back-video{
+    position: absolute;
+    z-index: -1;
+ 
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width:100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: auto;
+    }
+}
+
+/*------------------------------------------Section 1--------------------------------------*/
+
+#section1{
+    width: 100%;
+    height: 100vh;
+    margin-top: 130px;
+    padding-top: 40px;
+    position:relative;
+    justify-content: center;
+    display: flex;
+    background-color: aliceblue;
+}
+.title {
+    font-size: 30px;
+    position: absolute;
+    border-bottom: 2px solid black;
+}
+
+.s1content{
+    align-self:center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 80px 10%;
+}
+
+.s1content img{
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+.s1content p{
+    text-align: center;
+    padding: 100px;
+    padding-top:200px;
+}
+
+#section2{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-image: url("http://127.0.0.1:5500/images/maxresdefault.jpg");
+    background-attachment: fixed;
+}
+
+.title2 {
+    padding-top: 40px;
+    font-size: 30px;
+    position: absolute;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.s2content p{
+    text-align: center;
+    padding: 300px;
+    padding-top:200px;
+}
+
+.s2content {
+    text-align: center;
+    padding: 300px;
+    padding-top:200px;
+    color: white;
+}
+
+.s2content a{
+    color: red;
+    font-size: 24px;
+    border: 2px solid red;
+    padding: 14px 70px ;
+    border-radius: 50px;
+    font-family: "SansPro";
+}
+.s2content a:hover{
+    color: white;
+    background-color: red;
+}
+
+.s2bg {
+    position:absolute;
+    z-index: -1;
+}
+
+#section3{
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    position:relative;
+    justify-content: center;
+    display: flex;
+    background-color: oldlace;
+}
+
+.title3 {
+    font-size: 30px;
+    position: absolute;
+    border-bottom: 2px solid black;
+}
+/*--------------------------------------------footer-------------------------------------*/ 
+.footer{
+    width: 100%;
+    padding: 100px 15%;
+    background: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.ft2{
+    flex-grow: 2;
+}
+
+.footer h3{
+    text-decoration: underline red 2px;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.ft1 a{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ft1 a:hover{
+    color:red;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+form button:hover{
+    background: red;
+    border: 2px solid red;
+    color: white;
+}
+form button:active{
+    background: darkred;
+    border: 2px solid darkred;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px
+}
+
+.social-icons a{
+color:white;
+}
+
+.social-icons a:hover{
+    color:red;
+    }
