@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free HTML  tutorial for beginners">
+    <meta name="keywords" content="HTML, tutorial, beginners">
+    <meta name="author" content="Tehreem">
+    <meta http-equiv="refresh" content="30">
+    <title>Tehreem's Website</title>
+</head>
+<body>
+
+    <video  controls autoplay muted loop width="500">
+        <source src="planets.mp4">
+        This browser does not support HTML5 audio.
+    </video>    
+
+    <audio controls autoplay muted>
+        <source src="No Doubt - Yung Logos.mp3">
+        <source src="No Doubt - Yung Logos.wav">
+        This browser does not support HTML5 audio.
+    </audio>
+
+    <hr>
+
+    <a href="https://www.google.com" target="_self" title="This takes you to Google.">
+        Google
+    </a>
+    <br>
+    <a href="page2.html" target="_self" title="This takes you to page 2.">
+        Go to page 2
+    </a>
+    <br>
+    <a href="mailto:tehreem2000@hotmail.co.uk" target="_self" title="Send me an email.">
+        Email me!
+    </a>
+
+    <a href="https://shrek.fandom.com/wiki/Shrek_(character)">
+        <img src="/images/shrek_PNG2.png" height="300" alt="This is a picture of Shrek." title="Shrek is shrexy" >
+    </a>  
+    
+
+    <!--This is the best website ever-->
+    <h1>This is my website.</h1>
+    <hr>
+    <h1>I like pizza!</h1>
+    <br>
+    <h2>I like pizza!</h2>
+    <br>
+    <h3>I like pizza!</h3>
+    <br>
+    <h4>I like pizza!</h4>
+    <br>
+    <h5>I like pizza!</h5>
+    <br>
+    <h6>I like pizza!</h6>
+    <br>
+
+
+   <button onclick="doSomething()"  style="background-color: #333333;color:white; border: radius 5px;">Click me!</button>
+   <p id="test">Hello</p>
+   <script>
+       function doSomething(){
+           document.getElementById("test").innerHTML = "Goodbye";
+       }
+   </script>
+
+    <div style="background-color: #444444;" >
+    <p>
+        <span style="color: red ;">Lorem ipsum dolor sit amet consectetur.</span> adipisicing elit. Nam hic dolor aspernatur impedit, provident sequi ut, quas facilis minima ratione quae autem harum, dolorem corrupti soluta obcaecati rem laboriosam non.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugit qui sequi. Repellendus rem repellat praesentium, quod voluptas provident inventore repudiandae quas sit nemo esse tempora blanditiis neque dolorum accusamus?
+    </p>
+</div>
+</body>
+
+    <p>This is normal text.</p>
+    <p>This is <b>bold</b> text.</p>
+    <p>This is <i>italic</i> text.</p>
+    <p>This is <big>big</big> text.</p>
+    <p>This is <small>small</small> text.</p>
+    <p>This is <sub>subscript</sub> text.</p>
+    <p>This is <sup>superscript</sup> text.</p>
+    <p>This is <ins>inserted</ins> text.</p>
+    <p>This is <del>deleted</del> text.</p>
+    <p>This is <mark>marked</mark>text.</p>
+
+    <h4>Unordered List</h4>
+    <ul>
+        <li>pizza dough</li>
+        <li>tomato sauce</li>
+        <li>cheese</li>
+        <li>toppings
+            <ul>
+                <li>mushrooms</li>
+                <li>sweetcorn</li>
+                <li>peppers</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h4>Ordered List</h4>
+    <ol type="A">
+        <li>Eat breakfast</li>
+        <li>Take a shower</li>
+        <li>Leave for work</li>
+
+    </ol>
+
+    <h4>Description List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a webpage.</dd>
+        <dt>CSS</dt>
+        <dd>This adds style to a webpage.</dd>
+        <dt>JS</dt>
+        <dd>This adds functionality to a webpage.</dd>
+    </dl>
+
+    <h3>Store Hours</h3>
+
+    <table bgcolor="black" width="700">
+        <tr bgcolor="lightgrey">
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+
+        </tr>
+        <tr bgcolor="aqua" align="center">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form action="action_page.php" method="POST">
+
+
+        <div>
+
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD" name="title" value="PhD.">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="frame" placeholder="Spongebob" required>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lrame" placeholder="Squarepants">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="12" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="spants@gmail.com">
+        </div> 
+
+        <br>
+
+        <div>
+            <label for="phone">phone #:</label>
+        <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="bdate">birthdate:</label>
+        <input type="date" id="bdate" name="bdate">
+        </div> 
+
+        <br>
+
+        <div>
+            <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+        </div> 
+
+        <br>
+
+        <div>
+            <label for="payment">Payment:</label>
+            <select id="payment" name="payment">
+                <option> Visa</option>
+                <option> Mastercard</option>
+                <option> Giftcard</option>
+            </select>    
+        </div>
+
+        <br>
+
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        
+        <br>
+        
+    
+        <div>
+            <input type="Reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="Submit">
+        </div>
+    
+    </form>
+
+    <br>
+
+   
+    <iframe style="border: 0;" src="ad.html" width="750" height="100">
+
+   
+
+       
+
+
+
+
+
+</html>
