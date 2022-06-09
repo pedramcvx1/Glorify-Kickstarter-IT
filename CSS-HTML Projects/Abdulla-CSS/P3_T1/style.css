@@ -1,0 +1,34 @@
+
+
+.Parent {
+    position: relative;
+    height: 200vh;
+    background-color: goldenrod;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Child-One {
+    position: top;
+    background-color: blue;
+    height: 2.5ch;
+    padding: 3px;
+}
+
+.Child-Two {
+    position: relative;
+    background-color: red;
+    height: 2.5ch;
+    padding: 3px;
+}
+
+.Child-3 {
+    position: top;
+    background-color: green;
+    height: 2.5ch;
+    padding: 3px;
+}
+
+    
+   
+
+

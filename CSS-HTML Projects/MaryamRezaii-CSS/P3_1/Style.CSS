@@ -1,0 +1,34 @@
+.Parent {
+    position: relative;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    background-color: bisque;
+}
+
+.child-one {
+    position: relative;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    background-color:green;
+    top: auto;
+}
+
+.child-two {
+    position: relative;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    background-color:pink;
+    top:auto
+}
+
+.child-three {
+    position: relative;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    background-color:purple;
+    top: auto;
+}

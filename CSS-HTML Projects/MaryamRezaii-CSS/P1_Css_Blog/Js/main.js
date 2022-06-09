@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 const responsive = {
     0: {
         items: 1
@@ -15,7 +13,6 @@ const responsive = {
     }
 }
 
->>>>>>> Stashed changes
 $(document).ready(function () {
 
     $nav = $('.nav');
@@ -27,9 +24,6 @@ $(document).ready(function () {
     })
 
     // owl-crousel for blog
-<<<<<<< Updated upstream
-    $('.owl-carousel').owlCarousel();
-=======
     $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: false,
@@ -50,6 +44,5 @@ $(document).ready(function () {
 
      // AOS Instance
      AOS.init();
->>>>>>> Stashed changes
 
 });

@@ -1,0 +1,31 @@
+.parent {
+    position: relative;
+    padding: 20px;
+    font-family: verdana;
+    font-size: xx-large;
+    background-color: aqua;
+    height: 200vh;
+}
+
+.child-one {
+    position: sticky;
+    padding: 30px;
+    font-family: verdana;
+    font-size: xx-large;
+    background-color: blueviolet;
+    top: 0;
+}
+
+.child-two {
+    padding: 30px;
+    font-family: verdana;
+    font-size: xx-large;
+    background-color: red;
+}
+
+.child-three {
+    padding: 30px;
+    font-family: verdana;
+    font-size: xx-large;
+    background-color: yellow;
+}
