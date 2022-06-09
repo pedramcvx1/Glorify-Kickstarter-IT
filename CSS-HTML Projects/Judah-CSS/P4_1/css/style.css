@@ -1,0 +1,559 @@
+
+
+@import url('../css/fonts.css');
+
+
+html, body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/*---------------Global Classes--------------------*/
+
+a{
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root{
+
+    /*  Gradients  */
+    --grad-light: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    --grad-dark: linear-gradient(to right, #434343 0%, black 100%);
+    --grad-norm: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    --grad-off: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+
+
+
+
+
+    /* Theme colours  */
+    --text-white: white;
+    --text-pink: pink;
+    --text-black: black;
+    --text-gray: rgb(73, 73, 73);
+    
+
+    /* Fonts  */
+
+    --Raleway:'Raleway', cursive;
+    --Roboto: 'Roboto', cursive;
+    --Rabbit: 'Rabbit', cursive;
+    --Montserrat: 'Montserrat', cursive;
+    --Livvic: 'Livvic', cursive;
+    --Bad: 'Bad', cursive;
+
+}
+
+h1{
+    font-family: var(--Raleway);
+    font-size: 3rem;
+    color: rgb(189, 189, 189);
+}
+
+
+
+h2{
+    font-family: var(--Roboto);
+    font-size: 2rem;
+}
+
+
+h3{
+    font-family: var(--Montserrat);
+    font-size: 2rem;
+}
+
+h2{
+    font-family: var(--Roboto);
+    font-size: 2rem;
+}
+
+button.button{
+    border: solid -1rem;
+    padding: 0.7rem 3rem;
+    background: rgb(41, 41, 41);
+    border-color: rgb(255, 255, 255);
+    font-family: var(--Livvic);
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: white;
+}
+
+p{
+    font-family: var(--Livvic);
+}
+
+img{
+    height: 50%;
+    width: 30%;
+    background-size: cover;
+}
+
+
+
+
+/*----------x-----Global Classes-----x---------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------Nav Menu--------------------*/
+
+.nav{
+    background:rgb(48, 48, 48);
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 2s ease-in-out;
+}
+
+.nav .site-brand{
+    padding-top: 0rem;
+}
+
+
+
+
+.nav .site-brand a{
+
+    font-size: 2.5rem;
+    padding: 0.1rem 0;
+    display: block;
+    font-family: var(--Bad);
+    color:var(--text-black);
+
+}
+
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-menu-items{
+    display: flex;
+    margin: 0;
+
+}
+
+
+.nav .nav-menu-items .nav-link{
+    padding: 1.8rem 1rem;
+    font-size: 1.3rem;
+    font-family: var(--Montserrat);
+}
+
+.nav .nav-menu-items .nav-link:hover{
+    background-color: var(--text-gray);
+}
+.nav .nav-menu-items .nav-link:hover a{
+    color: var(--grad-off);
+    font-size: 1.6rem;
+
+}
+
+.nav .toggle-menu{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-menu .toggle-icon{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0rem;
+}
+
+.nav .toggle-menu .toggle-icon i{
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.collapse{
+    height: 30rem;
+}
+
+
+/*--------x-----Nav Menu-----------x---------*/
+
+
+
+/*--------------Main Site Content--------------------*/
+
+/*-------------------Site Title-------------------------------*/
+
+main .site-title{
+    background: url(../contents/hero\ image.jpg);
+    background-size: cover;
+    height: 110vh;
+    margin-top: 0%;
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+
+main .site-title .site-background{
+    padding-top: 4rem;
+    padding-left: 2rem;
+    text-align: left;
+    color: var(--text-white);
+
+}
+
+main .site-title .site-background .pure, .bal, .gyms{
+    padding-bottom: -2rem;
+    margin-bottom: -1.5rem;
+}
+
+main .site-title .site-background .bal{
+    padding-left: 2rem;
+}
+
+main .site-title .site-background .gyms{
+    padding-left: 4rem;
+}
+
+main .site-title .site-background h2{
+    padding-top: 3rem;
+}
+
+main .site-title .site-background p{
+    padding-right: 40rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+main .site-title .button:hover{
+    background: transparent;
+    color: #eeeeec;
+    border-color: black ;
+}
+
+/*-----------x--------Site Title------------------x-------------*/
+
+/*----------------------------Section 1----------------------------*/
+main .container{
+    background: var(--grad-dark);
+    height: 100vh;
+    margin-top: -3rem;
+
+}
+
+main .container .section-title h3{
+    font-size: 3rem;
+    justify-content: center;
+    padding: 1rem 19rem;
+    padding-top: 4rem;
+}
+main .container h3{
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+
+
+main .container .facilities{
+    padding-top: 2rem;
+}
+
+main .container .facilities .facility-gym .img-title{
+    justify-content: center;
+    padding-left: 6rem;
+}
+
+main .container .facilities .facility-gym .img-title h3{
+    padding-left: 1rem;
+}
+
+main .container .facilities .facility-gym{
+    padding-left: 1rem;
+}
+
+main .container .facilities .facility-swim{
+    position: relative;
+    top: -22.8rem;
+    left: 29rem
+}
+main .container .facilities .facility-swim .img-title{
+    padding-left: 7.5rem;
+}
+main .container .facilities .facility-swim .img-title h3{
+    padding-left: 1rem;
+}
+main .container .facilities .facility-swim img{
+    height: 16.5rem;
+}
+
+main .container .facilities .facility-spa{
+    position: relative;
+    top: -46rem;
+    left: 57.3rem;
+}
+
+main .container .facilities .facility-spa .img-title{
+    padding-left: 6rem;
+}
+main .container .facilities .facility-spa .img-title h3{
+    padding-left: 0.4rem;
+}
+main .container .facilities .facility-spa .img{
+    height: 17.5rem;
+}
+
+/*------------x----------------Section 1-------------x---------------*/
+
+
+/*--------------Section 2-------------------*/
+
+main .container-2{
+    height: 320vh;
+    background: var(--grad-dark);
+    margin-top: -3rem;
+    border-top: solid 2px white;
+}
+
+main .container-2 .inner-1 h3.new{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 33rem;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+    color: white;
+}
+
+main .container-2 .inner-1 .new-things h3{
+padding-left: 30rem;
+}
+
+main .container-2 .inner-1 .new-things img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 18rem;
+    height: 20rem;
+    width: 50rem;
+}
+
+main .container-2 .inner-1 .new-things{
+    color: white;
+}
+
+main .container-2 .inner-1 .new-things h3{
+    text-decoration: underline;
+}
+
+
+main .container-2 .inner-1 .new-things p{
+    font-family: var(--Raleway);
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+main .container-2 .inner-1 .new-things .contain{
+    padding: 1rem 35rem;
+}
+
+
+main .container-3{
+    height: 100vh;
+    background: var(--grad-dark);
+    margin-top: -2rem;
+    border-top: solid 2px white;
+    color: white;
+}
+
+
+main .container-3 h3{
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-left: 36rem;
+    font-family: var(--Raleway);
+    font-size: 3rem;
+
+}
+
+main .container-3 .section-content img{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    padding-left: 30rem;
+}
+
+main .container-3 .section-content p{
+    margin: 8rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    word-spacing: 1rem;
+    line-height: 1.8rem;
+}
+
+
+
+/*--------x------Section 2-----------x--------*/
+/*---------x-----Main Site Content-----------x---------*/
+
+
+
+
+/*----------------Footer------------------------*/
+footer.footer{
+    height:100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer.footer .container> div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem 5rem;
+}
+
+
+footer.footer .container .about h2, .contact h2, .follow h2{
+    color:white;
+}
+
+footer.footerv.container{
+    color: white;
+}
+
+footer.footer .container .contact .contact-icons{
+    font-size: 1.1rem;
+    word-spacing: .2rem;
+    line-height: 2rem;
+    color: #d5d4d0;
+}
+
+footer.footer .follow div i{
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+    color: #efeeec;
+}
+
+
+footer.footer .follow div i:hover{
+    cursor: pointer;
+    color: #d5d4d0;
+}
+
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Roboto);
+    color: white;
+    
+}
+
+footer.footer .scroll{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    color: #efeeec;
+}
+
+
+footer.footer .scroll span:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------x-------Footer----------x--------------*/
+
+
+
+
+
+
+
+
+
+
+/*        Viewport less then or equal to 750px   */
+@media only screen and (max-width: 750px){
+    .nav{
+        background: black;
+    }
+
+    .nav .nav-menu, .nav .nav-menu-items{
+        flex-direction: column;
+
+    }
+    .nav .site-brand a{
+        color: var(--text-gray);
+    }
+    .nav .toggle-menu{
+        display: initial;
+    }
+}
+
+
+
+
+
+/*  x      Viewport less then or equal to 750px  x */
+
+
+
+
+
+
+
+
+
+
+
