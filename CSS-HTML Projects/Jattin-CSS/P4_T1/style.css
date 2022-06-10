@@ -1,0 +1,84 @@
+@keyframes first{
+    from{margin-top: 100%;}
+    to{margin-top: 10%;}
+}
+
+main .site-title{
+    background-image: url(./assets/no1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Press Start 2P";
+    font-size: 70px;
+    color: maroon;
+    text-align: center;
+    font-weight: bold;
+    animation-name: first;
+    animation-duration: 3s;
+}
+
+@keyframes second{
+    from{margin-left: 100%;}
+    to{margin-left: 10%;}
+}
+
+.pic1{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;;
+    transform:skew(20deg, 10deg);
+    animation-name: second;
+    animation-duration: 3s;
+}
+
+.text1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: orange;
+    font-family: sans-serif;
+}
+
+#box1{
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+    font-family: "Press Start 2P";
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 5%;
+    background-color: lightskyblue;
+    border-radius: 100%;
+    animation-name: second;
+    animation-duration: 2s;
+}
+
+a{
+    font-family: verdana;
+    font-size: large;
+    border: 1px groove;
+    padding: 2px;
+    background-color: pink;
+}
+
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color: grey;
+}
+.text2{
+    font-family: "Press Start 2P";
+    font-size: large;
+}
+
+
+

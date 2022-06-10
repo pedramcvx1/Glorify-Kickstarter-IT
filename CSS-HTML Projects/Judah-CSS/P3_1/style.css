@@ -1,0 +1,33 @@
+
+
+.parent{
+    position: relative;
+    background-color: aqua;
+    font-size: 40px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 200vh;
+}
+
+
+.child{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.child-one{
+    position: sticky;
+    background-color: red; 
+    top: 0;
+
+}
+
+.child-two{
+    background-color: blue;
+
+}
+
+.child-three{
+    background-color: brown;
+
+}

@@ -1,0 +1,20 @@
+
+/* font-family Raleway */
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+
+/* font-family Roboto */
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+/* font-family Roboto-flex */
+@font-face {
+    font-family: Rabbit;
+    src: url('../fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
+}
