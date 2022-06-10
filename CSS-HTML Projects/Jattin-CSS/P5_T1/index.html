@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Jattin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="20">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="background-color: #877fad;">
+    
+    <h1>Welcome to my site :)</h1>
+    <br>
+    <br>
+    <div>    
+        <img src="./assets/rubiks1.jpg" alt="">
+        <p>Welcome to my website, here we will talk about rubiks cubes.</p>
+        <p>The Rubiks cube was invented in 1974 by Erno Rubik</p>
+        <p>It took Erno Rubik a <b>month</b> to solve the cube.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <div>
+        <h2>There are many different types of cubes;</h2>
+        <ul>
+            <li>2x2</li>
+            <li>3x3</li>
+            <li>4x4</li>
+            <li>Skewb</li>
+        </ul>
+        <img src="./assets/rubiks2.png" alt="">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr color="red">
+    <section class="two">
+        <h2>Here you can see how fast cubes were solved</h2>
+        <p>There are many speed cubers who can solve the rubiks cube in under <b>6 seconds!</b></p>
+        <table bgcolor="black" width="300px">
+            <tr bgcolor="orange">
+                <th>2x2</th>
+                <th>3x3</th>
+                <th>4x4</th>
+            </tr>
+            <tr bgcolor="orangered" align="center">
+                <td>4.22s</td>
+                <td>3.47</td>
+                <td>17.42</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <hr>
+    <button onclick="doSomething()">Click</button>
+    <p id="test">Get a Rubiks cube!</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Nice"
+        }
+    </script>
+
+    <h2>Enter your details below:</h2>
+
+    <form>
+        <div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Name">
+        </div>
+        <br>
+        <div>
+        <label for="bdate">Birthday</label>
+        <input type="date" id="bdate" name="date" placeholder="D.O.B">
+        </div>
+        <br>
+        <div>
+            <label for="title">Title:</label>
+            <label for="2x2">2x2:</label>
+            <input type="radio" id="2x2" name="title">
+            <label for="3x3">3x3:</label>
+            <input type="radio" id="3x3" name="title"> 
+            <label for="4x4">4x4:</label>
+            <input type="radio" id="4x4" name="title">
+        </div>
+        <br>
+        <div>
+        <label for="pass">Password</label>
+        <input type="text" id="pass" name="pass" placeholder="password">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>

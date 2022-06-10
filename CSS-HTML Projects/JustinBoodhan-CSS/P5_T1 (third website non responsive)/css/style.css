@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+/*----------------------------------------- Navigation and Header-------------------------------*/
+.header{
+    width: 100%;
+    height: 10vh;
+    display: block;
+    background-color: rgb(9, 1, 10);
+}
+
+.inner_header{
+    width: 65%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color:white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.logo_container h1 span{
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: magenta;
+}
+.navigation{
+    float:right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.navigation a :hover{
+    color: magenta;
+}
+/*----------------------------------------- Hero------------------------------*/
+.bg{
+    width: 100%;
+    height:90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.3)),url(/images/437081.jpg);
+    z-index: -1;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    color: white;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content p{
+    width: 50%;
+    margin: 60px auto;
+    font-size: 15px;
+}
+
+.content h1{
+    font-size: 10vw;
+}
+
+.content a{
+    color: magenta;
+    font-size: 30px;
+    border: 2px solid magenta;
+    padding: 14px 40px ;
+    border-radius: 100px;
+    font-family: "poppins";
+}
+
+.content a:hover{
+    color: white;
+    background-color: magenta;
+}
+/*----------------------------------------- hr1------------------------------*/
+.hr1{
+    height: 40vh;
+    width:100%;
+}
+
+.hr1content1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/102660.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr1content2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)),url(/images/5182818.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hr1content3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/new-york-late-backgrounds-desktop-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr1content1, .hr1content2, .hr1content3{
+    height: 50vh;
+    width:33.3333%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    display: inline;
+    text-align: center;
+    color: white
+}
+
+.hr1content1 h2, .hr1content2 h2, .hr1content3 h2{
+padding-top: 20px;
+padding-left: 40px;
+text-align: left;
+font-size:40px;
+}
+
+.hr1content1 p, .hr1content2 p, .hr1content3 p{
+    text-align: center;
+    transform: translateY(50%);
+    width: 80%;
+    margin: auto;
+}
+
+.hr1content1 a, .hr1content2 a, .hr1content3 a{
+float:  right;
+margin-right: 40px;
+transform: translateY(200%);
+color: magenta;
+font-size: 19px;
+border: 2px solid magenta;
+padding: 10px 30px ;
+border-radius: 100px;
+font-family: "poppins";
+}
+
+.hr1content1 a:hover, .hr1content2 a:hover, .hr1content3 a:hover{
+    color: white;
+    background-color: magenta;
+}
+
+.s1{
+    height: 100vh;
+    width: 100%;
+    background-color: #ede2e4;
+}
+
+.s1content{
+    height: 100vh;
+    width: 100%;
+}
+.s1content h1{
+    padding-top: 70px;
+    text-align: center;
+    text-decoration: underline solid black;
+    width: 100%;
+    margin: auto;
+    font-size: 7vw;
+}
+
+.s1content img{
+    max-width: 50%;
+    position: relative;
+    float: left;
+    display: inline;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.s1content p{
+    padding-left: 10%;
+    padding-top: 12%;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    transform: translateY(50%);
+    position: absolute;
+    float: right;
+    display: inline;
+}
+.s2{
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.s2content{
+    height: 100vh;
+    width: 100%;
+}
+
+.s2content h1{
+    padding-top: 70px;
+    text-align: center;
+    text-decoration: underline solid black;
+    width: 100%;
+    margin: auto;
+    font-size: 7vw;
+}
+
+.s2content img{
+    max-width: 50%;
+    position: relative;
+    float: right;
+    display: inline;
+    margin-top: 10%;
+    margin-right: 5%;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.s2content p{
+    padding-right: 10%;
+    padding-top: 12%;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    transform: translateY(50%);
+    position: absolute;
+    float: right;
+    display: inline;
+}
+.s3{
+    height: 100vh;
+    width: 100%;
+    background-color: #e2e7ee;
+}
+
+.s3content{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+    
+.s3content h1{
+    padding-top: 70px;
+    text-align: center;
+   text-decoration: underline solid black;
+    width: 100%;
+    margin: auto;
+    font-size: 7vw;
+}
+    
+.s3content img{
+    max-width: 50%;
+    position: relative;
+    float: left;
+    display: inline;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+    
+.s3content p{
+    padding-right: 10%;
+    padding-top: 12%;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    transform: translateY(50%);
+    position: relative;
+    float: right;
+    display: inline;
+}
+
+.footer{
+    width: 100%;
+    padding: 100px 15%;
+    background: rgb(50, 50, 50);
+    color: white;
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.ft2{
+    flex-grow: 2;
+}
+
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.ft1 a{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ft1 a:hover{
+    color:magenta;
+}
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+}
+form button:hover{
+    background: magenta;
+    border: 2px solid magenta;
+    color: white;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px
+}
+
+.social-icons a{
+color:white;
+}
+
+.social-icons a:hover{
+    color:magenta;
+}
+
+@media only screen and (max-width: 1015px){
+    .hr1{
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+
+/* Font-family Roboto  */
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+/* Font-family Raleway  */
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+
+
+/* Font-family Rabbit  */
+@font-face {
+    font-family: Rabbit;
+    src: url('../fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
+}
+
+
+/* Font-family Montserrat  */
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+/* Font-family Livvic  */
+@font-face {
+    font-family: Livvic;
+    src: url('../fonts/Livvic/Livvic-Regular.ttf') 
+
+}
+/* Font-family Livvic  */
+@font-face {
+    font-family: Bad;
+    src: url('../fonts/Bad_Script/BadScript-Regular.ttf') 
+
+}
+
+
+
+
+
+

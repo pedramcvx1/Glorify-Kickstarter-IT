@@ -1,0 +1,33 @@
+/*  font-family: bebas  */
+@font-face {
+    font-family: bebas_neue;
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+/*  font-family: josefin_sans  */
+@font-face {
+    font-family: josefin;
+    src: url('../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf');
+}
+
+/*  font-family: montserrat  */
+@font-face {
+    font-family:montserrat;
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+/*  font-family: lexend  */
+@font-face {
+    font-family: lexend;
+    src: url('../fonts/Lexend_Deca/');
+}
+
+/*  font-family: livvic  */
+    @font-face {
+        font-family: livvic;
+        src: url('../fonts/Livvic/Livvic-Black.ttf');
+    }
+  
+    
+    
+
