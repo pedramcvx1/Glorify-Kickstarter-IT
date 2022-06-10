@@ -1,0 +1,137 @@
+
+body{
+    background-image: url("1952506.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+background: linear-gradient(white,red);
+font-family: 'Bebas Neue';
+font-size: 50px;
+font-weight: bold;
+border-top: dotted;
+border-bottom: dotted;
+border-color: red;
+text-shadow: 0px, 0px, 5px yellow, 0px,-5px,5px red;
+box-shadow: 5px,5px,5px black;
+}
+
+p{
+    background: linear-gradient(white,red);
+    color: black;
+    border-style:outset ;
+    border-width: 5px;
+    border-radius: 7px;
+    border-color: red;
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+#box1{
+    border: 6px;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    background-color: crimson;
+
+    padding: 50px;
+
+   margin-left: auto;
+   margin-right: auto;
+    margin-bottom: 20px;
+} 
+#box2{
+    border: 6px;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    background-color: wheat;
+
+    padding: 50px;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+} 
+#box3{
+    border: 6px;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    background-color: blue;
+
+    padding: 50px;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+} 
+#box4{
+    border: 6px;
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    background-color: purple;
+
+    padding: 50px;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+} 
+img{
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.image-text{
+    background:linear-gradient(white, black);
+    color: aqua;
+   padding-left: 50px;
+   
+    
+
+}
+a{
+    position: relative;
+    left: 50px;
+}
+
+a:link{
+    color: yellow;
+
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: teal;
+}
+li:nth-child(even){
+    background-color: white;
+}
+li:nth-child(odd){
+  background-color:red ; 
+}
+li{
+position: relative;
+padding-left: 600px;
+}
+.fa-twitter{
+    color: aqua;
+}
+.fa-instagram{
+    color: royalblue;
+}
+.fa-snapchat{
+    color: yellow;
+}
