@@ -1,0 +1,98 @@
+
+body{
+   background: url(./assets/Forrest4.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   margin: 0%; 
+   
+}
+
+
+
+
+
+h1{
+    color: white;
+    font-family: "noto serif";
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 5rem;;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+h3{
+    color: white;
+    font-family: "noto serif";
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 0 rem;;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.box{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 350px;
+    height: 350px;
+    border: 1px solid;
+    font-size: 40px;
+    background-image: url(./assets/blog3.5.jpeg);
+    margin-left: 450px;
+
+    animation: 5s linear 1s infinite Slider;
+
+}
+.box1{
+    color: beige;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+}
+
+.box2{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 350px;
+    height: 350px;
+    background-image: url(./assets/petra.jpeg);
+    image-orientation: left;
+    font-size: 40px;
+    margin-left: 450px;
+
+    animation: 5s linear 1s infinite Slider;
+}
+
+.box2p{
+    color: beige;
+    text-shadow: 1px 1px 2px black;
+    font-size: 20px;
+    text-align: middle;
+}
+
+.box3{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 350px;
+    height: 350px;
+    background-image: url(./assets/stoneh.jpeg);
+    font-size: 40px;
+    margin-left: 450px;
+
+    animation: 5s linear 1s infinite Slider;
+
+}
+
+.box3p{
+    color: black;
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 20px;
+    text-align: middle;
+}
+
+@keyframes Slider{
+    from{margin-left:0% ;}
+    from{margin-right:100% ;}
+}
+
