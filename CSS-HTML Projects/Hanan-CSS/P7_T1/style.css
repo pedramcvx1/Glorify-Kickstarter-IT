@@ -9,7 +9,9 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(68, 35, 78, 0.7),rgba(54, 31, 66, 0.7)),url(./image/s2.jpg);
+
+    background: linear-gradient(rgba( 0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./image/p2.jpg);
+
     background-position: center;
     background-size: cover;
     padding-left:   8%;
@@ -41,7 +43,7 @@ nav{
 }
 
 .nav-links .btn{
-    background: rgb(58, 12, 58);
+    background: goldenrod;
     color: #fff;
     padding: 8px 30px;
     border-radius: 4px;
