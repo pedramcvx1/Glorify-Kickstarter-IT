@@ -1,0 +1,120 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./Images/jellyfish-g157e6935d_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.nav-logo img{
+    width:120px ;
+}
+
+.nav-links{
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color: white;
+    margin:40px ;
+
+}
+
+.nav-links .btn{
+    background: white ;
+    color: black;
+    padding: 8px 30px;
+    border-radius: 4px;
+
+}
+
+.content{
+    margin-top: ;
+    color: white;
+
+}
+
+.content h1{
+    font-size:60px ; 
+}
+
+.search-box{
+    background: white;
+    width:fit-content ;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;
+
+}
+
+.search-box button{
+    background: transparent;
+    border:0;
+    cursor:pointer;
+
+}
+
+search-box button img{
+    width: ;
+
+}
+
+.arrow{
+    margin-top: 120px;
+}
+
+.arrow img{
+    width:15px ;
+    padding: 20px;
+    background: grey;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin-right: 6px;
+    cursor: pointer;
+
+}
+
+@media {max-width: 700px;}{
+    search-box input{
+        width: 230px;
+    }
+    .nav-logo{
+        flex-basis: 100%;
+        margin-bottom: ;
+        text-align: center;
+    }
+    .nav-links{
+        justify-content: center;
+    }
+    .nav-links a{
+        margin-left:10px ;
+        margin-right: 1opx;
+    }
+    .nav-links .btn{
+        background: transparent;
+        color: white;
+        padding: 0;
+    }
+    .content h1{
+        font-size:30 ; 
+    }
+    .content{
+        margin-top: 85px;
+    }
+    .search-box{
+        padding: 10px 20px;
+    }
+}
