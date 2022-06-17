@@ -27,19 +27,12 @@ function lightboxClick(event) {
     }
 }
 
-Button = document.getElementById("BestButton")
+const toTop = document.querySelector(".to-top");
 
-window.onscroll = function() {scrollfunction()};
-
-function scrollfunction() {
-    if (document.body.scrolltop > 20 ||
-        document.documentElement.scrollTop > 20{
-            Button.style.display = "block";
-        } else {
-            Button.style.display = "none"
-        }
-}
-
-function topFunction() {
-    document.documentElement.scrollTop = 0;
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
   }
+})
