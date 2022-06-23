@@ -6,27 +6,24 @@
 
 .container{
     width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(58, 46, 22, 0.7),rgba(59, 56, 56, 0.7)), url(./Image/B1.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./image/P2.jpg);
     background-position: center;
     background-size: cover;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
     box-sizing: border-box;
 }
-
-nav{
+ 
+.navbar{
+    height: 12%;
     display: flex;
-    flex: 1;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 20px 0;
 }
 
 .L1{
-  width: 160px;
-  cursor: pointer;
-  justify-content: space-between;
+    width: 195px;
+    cursor: pointer;
 }
 
 .nav-links{
@@ -34,18 +31,18 @@ nav{
     flex: 1;
     align-items: center;
     justify-content: space-between;
+    margin-left: 40px;
 }
 
 a{
     text-decoration: none;
     color: #fff;
     margin-left: 40px;
-    font-size: 20px;
 }
 
 .btn{
-    background: #fff;
-    color: #000;
+    background: goldenrod;
+    color: #fff;
     padding: 8px 30px;
     border-radius: 4px;
 }
@@ -60,52 +57,64 @@ a{
     flex-basis: 50%;
 }
 
-
 h1{
     color: #fff;
     font-size: 100px;
+    
 }
 
 p{
     color: #fff;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 15px;
 }
 
-button{
-    width: 180px;
-    color: #000;
-    font-size: 12px;
-    padding: 12px 0;
+.search-box{
     background: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.search-box input{
+    background: transparent;
+    width: 600px;
     border: 0;
-    border-radius: 20px;
     outline: none;
-    margin-top: 30px;
+}
+
+.search-box button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.search-box button img{
+    width: 22px;  
 }
 
 .card{
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
-    margin-right: auto;
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s;
-    flex-basis: 50%;
+    transition: transform 0.5s;       
 }
 
 .card1{
-    background-image: url(./Image/P1.jpg);
+    background-image:url(./Image/B1.jpg) ;
 }
 
 .card2{
-    background-image: url(./Image/P2.jpg);
+    background-image: url(./Image/P1.jpg);
 }
 
 .card3{
@@ -113,9 +122,6 @@ button{
 }
 
 .card:hover{
-    transform: translate(-10px);
+    transform: translateY(-10px);
 }
 
-
-
- 
