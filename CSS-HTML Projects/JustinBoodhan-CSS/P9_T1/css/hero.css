@@ -1,0 +1,56 @@
+.hero{
+    display: flex;
+    height: 100vh;
+    background: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 500px;
+}
+
+.hero .max-width{
+    margin-left: 40px;
+}
+
+.text-1{
+    font-size: 1.6875rem;
+}
+
+.text-2{
+    font-size: 4.6875rem;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.text-3{
+    font-size: 2.5rem;
+    margin: 5px 0;
+    margin-bottom: 30px;
+}
+
+.text-3 span{
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.btn2 a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    padding: 15px 40px;
+    border-radius: 40px;
+
+    display: none;
+}
+
+.btn2 a:hover{
+    background:linear-gradient(to right, #418ed1 0%, #00b8c2 100%);
+    transition: all 300ms ease-in-out;
+}
+
