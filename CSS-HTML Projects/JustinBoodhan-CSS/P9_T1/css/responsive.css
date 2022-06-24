@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1200px){  
+    .btn2 a{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1000px){  
+    .about-content{
+        display: block;
+    }
+    .left{
+        width:100%;
+    
+    }
+
+    .left img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .right{
+        width:100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px){  
+    .text-1{
+        font-size: 1.5875rem;
+    }
+
+    .text-2{
+        font-size: 3.6875rem;
+        font-weight: 600;
+    }
+
+    .text-3{
+        font-size: 2.2rem;
+
+    }
+
+    .btn2 a{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 590px){  
+    .text-1{
+        font-size: 1.4rem;
+    }
+
+    .text-2{
+        font-size: 2.9rem;
+        font-weight: 600;
+    }
+
+    .text-3{
+        font-size: 1.9rem;
+    }
+
+    .hero .max-width{
+        margin-left: 20px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}

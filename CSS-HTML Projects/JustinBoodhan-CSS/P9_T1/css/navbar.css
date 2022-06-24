@@ -1,0 +1,146 @@
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 1.25rem 0;
+    transition: all 300ms ease-in-out;
+    z-index: 56;
+}
+
+.navbar.sticky{
+    background: rgba(0, 0, 0, 0.527); 
+    padding: 0.75rem 0;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    z-index: 10;
+}
+
+.logo a{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.logo span{
+    font-size: 3.187rem;
+    font-weight: 900;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 3px;
+    
+}
+
+.menu a:hover{
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+    transition: 300ms ease-in-out;
+    font-weight: bold;
+}
+  
+.menu a{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    z-index: 20;
+}
+
+.menu a:not(:last-child){
+    margin-right: 1.25rem;
+}
+
+.btn1 a{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    padding: 15px 40px;
+    border-radius: 40px;
+    transition: all 300ms ease-in-out;
+    z-index: 30;
+}
+
+.btn1 a:hover{
+    background:linear-gradient(to right, #418ed1 0%, #00b8c2 100%);
+    transition: all 300ms ease-in-out;
+    opacity: 0.9;
+}
+
+
+.ham{
+    color: white;
+    font-size: 1.4375rem;
+    cursor: pointer;
+    display:none;
+}
+
+@media only screen and (max-width: 1200px){  
+   .btn1{
+        display: none;
+   } 
+}
+
+
+
+@media only screen and (max-width: 950px){  
+    .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: -100%;
+        background: black;
+        text-align: center;
+        padding-top: 100px;
+        transition: all 300ms ease-in-out;
+    }
+
+    .menu.active{
+        top:0;
+    }
+
+    .ham{
+        display: block;
+        z-index: 80;
+    }
+
+    .ham i.active::before{
+        content: "\f00d";
+    }
+
+    .menu a{
+        display:block;
+        margin: 20px;
+        font-size: 1.5625rem;
+    }
+
+    .menu a:hover{
+        font-size: 2em;
+    }
+
+    .menu a:not(:first-child){
+        margin-top: 100px ;
+    }
+}
+
+@media only screen and (max-width: 590px){  
+    .logo a{
+        font-size: 1.9em;
+
+    }
+    
+    .logo span{
+        font-size: 2.187rem;
+    }
+}
