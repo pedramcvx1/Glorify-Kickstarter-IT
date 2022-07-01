@@ -1,0 +1,26 @@
+
+h1{
+    color:#8a2be2;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    color: aqua;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid blueviolet;
+    background-color: rgb(214, 61, 61);
+}

@@ -1,0 +1,29 @@
+.parent {
+    padding: 5px;
+    background-color: #00AAFF;
+  }
+  
+  .child {
+    padding: 5px;
+  }
+  
+  .child-one {
+    background-color: rgb(116, 255, 116);
+  }
+  
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+  
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+  child-four {
+    background-color: #6a9dde;
+  }
+  child-five {
+    background-color: #df776c;
+  }
+  child-six {
+    background-color: #d3865a;
+  }

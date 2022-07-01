@@ -1,0 +1,46 @@
+.services, .teams{
+    color:white;
+    background: black;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+
+.card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card i{
+    font-size: 50px;
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+}
+
+.card:hover i{
+    -webkit-text-fill-color: white;
+}
+.card:hover{
+    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.card .box{
+    transition: all 0.3s ease;
+}
+.card:hover .box{
+    transform: scale(1.05);
+}
+
+.text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}

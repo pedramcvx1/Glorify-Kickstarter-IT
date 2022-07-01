@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./assets/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.nav-icon img{
+    width: 120px;
+}
+
+.topnav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.topnav .btn{
+    background: white;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.topnav .btn:hover{
+    background: rgb(0, 128, 150);
+    color: white;
+}
+
+.explore{
+    margin-top: 50px;
+    color: white;
+}
+
+.explore h1{
+    font-size: 50px;
+    color: black;
+}
+
+.search{
+    background: lightgrey;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.search input{
+    background: transparent;
+    width: 500px;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+}
+
+.search button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 20px;
+    height: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+    text-decoration: overline;
+}
+
+.arrow{
+    margin-top: 100px;
+}
+
+.arrow img{
+    width: 15px;
+    padding: 20px;
+    background: rgba(70, 70, 70, 0.8);
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .search input{
+        width: 230px;
+    }
+
+    .nav-icon{
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .topnav{
+        justify-content: center;
+    }
+
+    .topnav a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .topnav .btn{
+        background: transparent;
+        color: white;
+        padding: 0;
+    }
+
+    .topnav .btn:hover{
+        background: grey;
+        color: white;
+    }
+
+    .explore h1{
+        font-size: 20px;
+    }
+
+    .explore{
+        margin-top: 80px;
+    }
+
+    .search{
+        padding: 10px 20px;
+    }
+
+    .arrow img{
+        width: 10px;
+    }
+}

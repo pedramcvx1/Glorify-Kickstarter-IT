@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="wellcome()">
+    <div class="container">
+        <nav>
+            <div class="nav-logo">
+               <img src="image/Logo m.png">
+            </div>
+            <div class="nav-links">
+                <a href="">Musics</a>
+                <div>
+                    <a href="https://open.spotify.com/">Login</a>
+                    <a href="https://www.spotify.com/uk/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F" target="_blank" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <h1>Download Any Songs<br>You Want</h1>
+            
+                <div class="search-box">    
+                <input type="text" id="Musics" placeholder="Search Songs">
+                <a href="https://open.spotify.com/search" target="_blank">
+                <button type="submit"><img src="image/Search icon.png"></button>
+            </a>
+            </div>
+            <p>Milions of songs to search from</p>
+        </div>
+        <div class="arrow">
+            <a href="file:///C:/Users/rezai/OneDrive/Documents/P6_T1/index.html">
+            <img src="image/previous.png">
+        </a>
+        <a href="https://open.spotify.com/" target="_blank">
+            <img src="image/next.png"  onclick="alert('Spotify Music')">
+        </a>
+        </div>
+    </div>
+    <script>
+      function wellcome(){
+        alert("welcome to Spotify music");
+       }
+       function mouseover(element){
+         element.value="please write your information"
+       }
+       function mouseout(element){
+         element.value=""
+       }
+    </script>
+    
+     <div class="col-md-2"></div>
+
+     <div class="col-md-4 ">
+       <div class="panel panel-default">
+         <div class="panel-heading">
+           <h2 class="text-center ">Create a folder here to save your favorite musics</h2>
+         </div>
+         <div class="panel-body">
+           <form role="form">
+             <div class="form-group">
+               <label for="email">Name:</label>
+               <input type="text" class="form-control" onblur="blurf(this)" onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="form-group">
+               <label for="email"> Last Name:</label>
+               <input type="text" class="form-control" onblur="blurf(this)" onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="form-group">
+               <label for="email">Phone:</label>
+               <input type="text" class="form-control" onblur="blurf(this)" onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="form-group">
+               <label for="email">Email address:</label>
+               <input type="email" class="form-control" onblur="blurf(this)" onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="form-group">
+               <label for="pwd">Password:</label>
+               <input type="password" class="form-control"onblur="blurf(this)"  onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="form-group">
+               <label for="pwd">Folder color:</label>
+               <input type="color" class="form-control"onblur="blurf(this)"  onfocus="myFunction(this)" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+             </div>
+             <div class="checkbox">
+               <label><input type="checkbox"> Remember me</label>
+             </div>
+             <button type="submit" class="btn ">Submit</button>
+           </form>
+         </div>
+       </div>
+     </div>
+</body>
+</html>
