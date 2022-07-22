@@ -1,0 +1,150 @@
+body {
+    margin: 10px;
+}
+#profile{
+    margin-bottom: 50px;
+}
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+p5.username {
+    font-weight: bold;
+}
+#p6{
+    color: black;
+}
+p {
+    color: orange;
+}
+
+.products {
+    color: orange;
+}
+
+a[target="_blank"] {
+    color: orange;
+}
+
+a[href="https://google.com"] {
+    color: orange;
+}
+
+a[href*="google"] {
+    color: orange;
+}
+
+a[href="https"][href$=".com"] {
+    color: orange;
+}
+
+#Product>p {
+    color: brown;
+}
+
+#Product+p {
+    color: purple;
+}
+
+#Product~p {
+    color: violet;
+}
+
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
+}
+
+article p:last-of-type {
+    font-weight: bold;
+}
+
+ul li:nth-child(even) {
+    color: deeppink;
+}
+
+a:visited {
+    color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+    color: deeppink;
+}
+
+.first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: pink;
+}
+
+p2::before {
+    content: '...';
+}
+
+p2::after {
+    content: '...';
+    display: block;
+}
+
+h1 {
+    color: dodgerblue !important;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+#One {
+    color: green;
+}
+
+.highlight#One {
+    color: brown;
+}
+
+.featured #One {
+    color: aquamarine;
+}
+
+p3 {
+    color: red;
+    border: 1px solid black;
+}
+
+strong {
+    color: initial;
+    border: inherit;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: rgba(230, 205, 16, 0.5);
+    border: 10px dashed royalblue;
+    border-top: 20px solid royalblue;
+    border-width: 10px 20px 10px 20px;
+    border-radius: 50px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    background: linear-gradient(to bottom right, dodgerblue, yellow);
+    box-shadow: 10px 10px 10px grey;
+}
+
+.box3 {
+    width: 600px;
+    height: 200px;
+    margin-top: 40px;
+    background: radial-gradient(circle, white, yellow);
+}
